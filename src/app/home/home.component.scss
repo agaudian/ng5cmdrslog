@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: #2e3541;
+    margin-top: 5em;
+}
+.color-light {
+    background: #495568;
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+input.btn {
+    border: 0;
+    display:block;
+    padding:1em 3em;
+    background: #029e4c;
+    color: #fff;
+    margin-bottom:1em;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.log-container {
+    background: #5a6880;
+    padding: .5em;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius: 5px;
+}
